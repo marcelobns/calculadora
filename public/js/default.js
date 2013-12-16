@@ -1,3 +1,7 @@
+$(function() {
+    FastClick.attach(document.body);
+});
+
 $('.button').on('click', function (e) {
 	
 	var size = $('#visor-input').val().length;
